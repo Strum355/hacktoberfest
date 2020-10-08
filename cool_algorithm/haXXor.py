@@ -1,7 +1,8 @@
+import itertools
+
 """
 Too haXXor 4 U
 """
-while True:
-    string = "Hello World"
-    for i in string:
-        print(i, end="")
+thing = ['h', 'e', 'l', 'l', 'o', 'world']
+for n in itertools.count():
+    print(thing, end="")
